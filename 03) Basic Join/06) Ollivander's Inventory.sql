@@ -10,3 +10,4 @@ FROM WANDS A
                             WHERE B.AGE = B1.AGE
                             AND A.POWER = A1.POWER)
 ORDER BY A.POWER DESC, B.AGE DESC;
+
